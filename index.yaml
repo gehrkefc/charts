@@ -54162,12 +54162,12 @@ entries:
       catalog.cattle.io/release-name: rancher-webhook
       helm.sh/images: |
         - name: rancher-webhook
-          image: rancher/rancher-webhook:v0.12.1-rc.15
+          image: rancher/rancher-webhook:v0.12.1-rc.15-rfd0070
     apiVersion: v2
     appVersion: 0.12.1-rc.15
     created: "2026-11-03T11:50:47.486534847Z"
     description: ValidatingAdmissionWebhook for Rancher types
-    digest: 3a8ab2c8a9a03671800dcd3c81ba9fa4e80a7e1e42898cd0cdcb9c54c087bb7f
+    digest: d7c062472692a8b3c495a025fcb1a07b62a13063dfe47d6748391f768b037d92
     name: rancher-webhook
     urls:
     - assets/rancher-webhook/rancher-webhook-111.0.0+up0.12.1-rc.15.tgz
@@ -56411,13 +56411,13 @@ entries:
       catalog.cattle.io/release-name: remotedialer-proxy
       helm.sh/images: |
         - name: remotedialer-proxy
-          image: rancher/remotedialer-proxy:v0.9.1-rc.1
+          image: rancher/remotedialer-proxy:v0.9.1-rc.1-rfd0070
     apiVersion: v2
     appVersion: 0.9.1-rc.1
     created: "2026-11-03T13:23:56.204671578Z"
     description: creates a bridge between k8s api-server and imperative api when Rancher
       is outside of the cluster
-    digest: f93eabeb6c74bafad0a4c953c81368c8368c2bb4b01909577e97a5f7cb30f79d
+    digest: 4679e093eb407dd49393b780800f504d086850ec54fce557606a79e1935496e7
     name: remotedialer-proxy
     type: application
     urls:

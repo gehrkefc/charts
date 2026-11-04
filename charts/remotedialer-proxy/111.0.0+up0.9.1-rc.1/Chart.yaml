@@ -9,7 +9,7 @@ annotations:
   catalog.cattle.io/release-name: remotedialer-proxy
   helm.sh/images: |
     - name: remotedialer-proxy
-      image: rancher/remotedialer-proxy:v0.9.1-rc.1
+      image: rancher/remotedialer-proxy:v0.9.1-rc.1-rfd0070
 apiVersion: v2
 appVersion: 0.9.1-rc.1
 description: creates a bridge between k8s api-server and imperative api when Rancher

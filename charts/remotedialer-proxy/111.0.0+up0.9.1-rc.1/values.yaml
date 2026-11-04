@@ -8,7 +8,7 @@ image:
   repository: rancher/remotedialer-proxy
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v0.9.1-rc.1
+  tag: v0.9.1-rc.1-rfd0070
 
 imagePullSecrets: []
 nameOverride: ""

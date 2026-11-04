@@ -10,7 +10,7 @@ annotations:
   catalog.cattle.io/release-name: rancher-webhook
   helm.sh/images: |
     - name: rancher-webhook
-      image: rancher/rancher-webhook:v0.12.1-rc.15
+      image: rancher/rancher-webhook:v0.12.1-rc.15-rfd0070
 apiVersion: v2
 appVersion: 0.12.1-rc.15
 description: ValidatingAdmissionWebhook for Rancher types
